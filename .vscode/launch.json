@@ -8,8 +8,23 @@
             "name": "Débogueur Python : Fichier actuel",
             "type": "debugpy",
             "request": "launch",
-            "program": "${file}",
+            "program": "${workspaceFolder}/main.py",
+            "args": [
+                "${input:country1}",
+                "${input:country2}"],
             "console": "integratedTerminal"
+        }
+    ],
+    "inputs": [
+        {
+            "id": "country1",
+            "type": "promptString",
+            "description": "Enter the first country"
+        },
+        {
+            "id": "country2",
+            "type": "promptString",
+            "description": "Enter the second country"
         }
     ]
 }
