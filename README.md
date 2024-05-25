@@ -40,6 +40,10 @@ pip install -r requirements.txt
 
 ## Try it
 
+### With VS Code
+Use the debug launch.json : you will get the invite to enter the first country, and the second.
+
+### Command Line
 **Examples:**
 
 ```bash
