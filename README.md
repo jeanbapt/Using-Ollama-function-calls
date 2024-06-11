@@ -4,6 +4,16 @@ This code is taking two **country** names and returns the **distance** between t
 
 This is a very simple **tinkering** , that fits into the use of functions to compose calls to ollama (llms).
 
+## Output
+```bash
+main.py italy denmark 
+Retrieved city info for italy: {'capital_city': 'Rome', 'latitude': 41.9028, 'longitude': 12.4964}
+Retrieved city info for denmark: {'capital_city': 'Copenhagen', 'latitude': 55.6761, 'longitude': 12.5683}
+City 1: {'capital_city': 'Rome', 'latitude': 41.9028, 'longitude': 12.4964}
+City 2: {'capital_city': 'Copenhagen', 'latitude': 55.6761, 'longitude': 12.5683}
+The distance between Rome and Copenhagen is 1530 km
+```
+
 ## Check ollama
 
 [https://ollama.com/](https://ollama.com/)
@@ -40,6 +50,10 @@ pip install -r requirements.txt
 
 ## Try it
 
+### With VS Code
+Use the debug launch.json : you will get the invite to enter the first country, and the second.
+
+### Command Line
 **Examples:**
 
 ```bash
