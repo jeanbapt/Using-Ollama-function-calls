@@ -51,9 +51,11 @@ pip install -r requirements.txt
 ## Try it
 
 ### With VS Code
+
 Use the debug launch.json : you will get the invite to enter the first country, and the second.
 
 ### Command Line
+
 **Examples:**
 
 ```bash
@@ -63,6 +65,18 @@ python main.py france italy
 ```bash
 python main.py malawi people-republic-of-china
 ```
+
+## Improvements
+
+The code will not recognize capitals and states. For example, run the following:
+
+````bash
+python main.py britanny corsica
+python main.py tahiti nouvelle-calédonie
+````
+
+Have fun !!!
+
 
 ## Aknowledgements & References
 
